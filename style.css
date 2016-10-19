@@ -1,0 +1,55 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.nav-container {
+    margin: 0;
+    padding: 0;
+}
+
+ul.nav-container,
+ul.subNav-container {
+    list-style: none;
+    text-align: center;
+}
+
+.subNav-container {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background: wheat;
+    padding: 0;
+}
+
+.subNav-hover {
+    display: block;
+}
+
+.nav-item:hover .subNav-container {
+    display: block;
+}
+
+.nav-item {
+    display: inline-block;
+}
+
+.nav-item a {
+    display: block;
+    padding: 1em;
+}
+
+#example {
+    padding: 10em 0;
+}
+
+.cover {
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
